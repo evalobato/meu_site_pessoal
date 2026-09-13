@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
-body{
-   
+body {
+  background-color: rgb(67, 32, 100);
+  background-position: center;
+  color: white;
+}
+
+header {
+  diplay: flex;
+  backgroud-color: rgb(142, 67, 172);
+  color: antiquewhite;
+  padding: 1rem;
+  text-align: center;
+  background-position: center;
 }
