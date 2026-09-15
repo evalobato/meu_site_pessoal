@@ -202,7 +202,16 @@ section {
 }
 
 .divIcones{
+    display: flex;
+    gap: 20px;
+    
   img{
-    width: 70px;
+    width: 10vh;
+    justify-content: center;
+    display: flex;
+   
   }
+  
+
 }
+
