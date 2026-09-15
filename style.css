@@ -88,6 +88,7 @@ section {
     font-size: 18px;
     color:rgb(44, 42, 42);
     align-items: center;
+
   }
 }
 
@@ -106,7 +107,7 @@ section {
   background-image: url(assets/fundo.png);
   background-size: cover;
   background-position: left;
-  height: 20vh;
+  height: 25vh;
   justify-content: space-between;
   align-items: flex-start;
   
@@ -135,7 +136,7 @@ section {
   background-image: url(assets/fundo.png);
   background-size: cover;
   background-position: left;
-  height: 20vh;
+  height: 25vh;
   justify-content: space-between;
   align-items: flex-start;
 
@@ -166,5 +167,42 @@ section {
     display: flex;
     font-size: 6vh;
     color:rgb(94, 77, 94);
+  }
+}
+
+.cabConts{
+  background-image: url(assets/fundo.png);
+  background-size: cover;
+  background-position: left;
+  height: 25vh;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h1{
+    font-size: 5vh;
+    justify-content: left;
+  }
+  h2{
+    font-size: 45px;
+  }
+}
+
+.secEndere{
+  text-align: justify;
+  h2{
+    display: flex;
+    font-size: 4vh;
+    color:rgb(94, 77, 94);
+  }
+  address{
+    font-size: 20px;
+    color:rgb(44, 42, 42);
+    font-weight: bold;
+  }
+}
+
+.divIcones{
+  img{
+    width: 70px;
   }
 }
