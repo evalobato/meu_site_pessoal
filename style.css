@@ -163,10 +163,12 @@ section {
 .secInteresse{
   align-items: center;
   justify-content: center;
+  margin-top: -7vh;
   h2{
     display: flex;
     font-size: 6vh;
     color:rgb(94, 77, 94);
+   
   }
 }
 
@@ -188,30 +190,38 @@ section {
 }
 
 .secEndere{
-  text-align: justify;
+  text-align: center;
+  
   h2{
-    display: flex;
     font-size: 4vh;
     color:rgb(94, 77, 94);
   }
   address{
+    margin-top: 2vh;
     font-size: 20px;
     color:rgb(44, 42, 42);
     font-weight: bold;
   }
 }
 
-.divIcones{
+.divIcones {
     display: flex;
-    gap: 20px;
-    
-  img{
-    width: 10vh;
-    justify-content: center;
-    display: flex;
-   
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 7vh;
+  h2{
+    font-size: 4vh;
   }
-  
 
+    div {
+        display: flex;
+        gap: 20px;
+        margin-top: 3vh;
+    }
+
+    img {
+        height: 20vh;
+    }
 }
 
