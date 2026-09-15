@@ -29,7 +29,7 @@ header {
     gap: 20px;
     list-style-type: none;
     justify-content: space-between;
-    background-color: rgba(154, 145, 145, 0.152);
+    background-color: rgba(154, 145, 145, 0.084);
     padding: 16px 20px;
   }
 }
@@ -47,7 +47,7 @@ section {
   background-image: url("assets/fundo.png");
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  height: 70vh;
   justify-content: center;
   align-items: center;
 }
@@ -101,5 +101,97 @@ section {
   p{
     font-size: 2vh;
     color:rgb(44, 42, 42)
+  }
+}
+
+.sectionCurso{
+  background-image: url(assets/fundo.png);
+  background-size: cover;
+  background-position: left;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  h1{
+    font-size: 5vh;
+    justify-content: left;
+  }
+  h2{
+    font-size: 40px;
+  }
+}
+
+.sectionAdmissao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    display: flex;
+    font-size: 7vh;
+    color:rgb(94, 77, 94);
+  }
+  p{
+    font-size: 2vh;
+    color:rgb(44, 42, 42);
+    align-items: center;
+  }
+ 
+}
+
+.sectCabArea{
+  background-image: url(assets/fundo.png);
+  background-size: cover;
+  background-position: left;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h1{
+    font-size: 5vh;
+    justify-content: left;
+  }
+  h2{
+    font-size: 40px;
+  }
+}
+
+.secArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  
+
+  p{
+    font-size: 18px;
+    color:rgb(44, 42, 42);
+    align-items: center;
+  }
+}
+
+
+.headerArea{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4%;
+  align-items: center;
+  position: fixed;
+
+  nav {
+    border: none;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    position: static;
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: rgba(154, 145, 145, 0.083);
+    padding: 16px 20px;
   }
 }
