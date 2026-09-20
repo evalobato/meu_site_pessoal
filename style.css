@@ -221,7 +221,8 @@ section {
     }
 
     img {
-        height: 20vh;
+      height: 110px;
+      width: 110px;
     }
 }
 
